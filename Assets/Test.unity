@@ -113,7 +113,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _frameRate: 60
-  _recordLength: 1
+  _recordLength: 10
 --- !u!4 &293541312
 Transform:
   m_ObjectHideFlags: 0
@@ -198,7 +198,7 @@ ParticleSystem:
   InitialModule:
     enabled: 1
     startLifetime:
-      scalar: 4
+      scalar: 4.80000019
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -1323,7 +1323,7 @@ ParticleSystem:
   InitialModule:
     enabled: 1
     startLifetime:
-      scalar: 4
+      scalar: 4.80000019
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -2464,8 +2464,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 655cbef07abde4434ab1d2fc478d5cb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _width: 1280
-  _height: 720
+  _width: 1920
+  _height: 1080
   _superSampling: 0
 --- !u!20 &915659813
 Camera:
@@ -2611,6 +2611,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 655cbef07abde4434ab1d2fc478d5cb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _width: 1280
-  _height: 720
+  _width: 1920
+  _height: 1080
   _superSampling: 0
